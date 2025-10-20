@@ -145,7 +145,6 @@ Agentic RAG systems derive their intelligence and adaptability from well-defined
   <p><em>Figure 4: Multi-Agent Collaboration Pattern</em></p>
 </div>
 
-
 ---
 
 ### Significance of Agentic Patterns
@@ -273,6 +272,15 @@ Agentic Retrieval-Augmented Generation (RAG) systems encompass various architect
 - **Limitations**:
   - Coordination complexity increases with the number of agents.
   - Risk of redundancy or conflicts between agents.
+
+  #### Case Study: AgentFlow
+AgentFlow is a **trainable, tool-integrated agentic framework** designed to overcome the **scalability and generalization limits** of today’s tool-augmented reasoning approaches. It coordinates four specialized modules—**Planner**, **Executor**, **Verifier**, **Generator**—and optimizes the **planner** *in the flow* of multi-turn tasks using **Flow-GRPO**, improving long-horizon credit assignment and tool-use reliability.
+
+**Key Features:**  
+🧩 Modular Agentic System – Four specialized agent modules (Planner, Executor, Verifier, Generator) that coordinate via evolving memory and integrated tools across multiple turns.  
+🔗 Multi-Tool Integration – Seamlessly connect with diverse tool ecosystems, including `base_generator`, `python_coder`, `google_search`, `wikipedia_search`, `web_search`, and more.  
+🎯 Flow-GRPO Algorithm – Enables in-the-flow agent optimization for long-horizon reasoning tasks with sparse rewards.
+
 
 ### 3. Hierarchical Agentic RAG
 - **Key Idea**: Organizes agents in a hierarchy for better task prioritization and delegation.
